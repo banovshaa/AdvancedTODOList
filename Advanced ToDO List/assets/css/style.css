@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(54, 112, 199);
+}
+body .container .all {
+  padding: 0 5rem;
+}
+body .container .all h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #333;
+  opacity: 0.3;
+  padding-bottom: 5rem;
+}
+body .container .all .all-lists .list-left {
+  color: white;
+}
+body .container .all .all-lists .list-left h3 {
+  font-size: 20px;
+  padding-left: 12px;
+}
+body .container .all .all-lists .list-left .left-l li {
+  font-weight: 100;
+  list-style-type: circle;
+}
+body .container .all .all-lists .list-left .left-l .left-list-active {
+  font-weight: 600;
+}
+body .container .all .all-lists .list-left .left-input {
+  color: white;
+  font-weight: 100;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+body .container .all .all-lists .list-left .left-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+body .container .all .all-lists .list-left .left-input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+body .container .all .all-lists .list-left .left-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+body .container .all .all-lists .list-left .btn {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+body .container .all .all-lists .list-right .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .all .all-lists .list-right .card-header .card-header-left h3 {
+  font-weight: 600;
+  font-size: 25px;
+}
+body .container .all .all-lists .list-right .card-header .card-header-right {
+  color: rgb(116, 114, 114);
+  font-size: 13px;
+  padding-top: 8px;
+}
+body .container .all .all-lists .list-right .right-input {
+  color: rgba(111, 108, 108, 0.4);
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #888;
+}
+body .container .all .all-lists .list-right .right-input::-moz-placeholder {
+  color: rgba(111, 108, 108, 0.4);
+}
+body .container .all .all-lists .list-right .right-input:-ms-input-placeholder {
+  color: rgba(111, 108, 108, 0.4);
+}
+body .container .all .all-lists .list-right .right-input::placeholder {
+  color: rgba(111, 108, 108, 0.4);
+}
+body .container .all .all-lists .list-right .btn {
+  color: #000;
+  font-weight: 600;
+  font-size: 25px;
+}
+body .container .all .all-lists .list-right .right-l {
+  margin: 1rem;
+}
+body .container .all .all-lists .list-right .right-l .checkbox-label {
+  font-size: 18px;
+  letter-spacing: 0.1px;
+  color: #333;
+}
+body .container .all .all-lists .list-right .right-notes {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 14px;
+  color: #888;
+}/*# sourceMappingURL=style.css.map */

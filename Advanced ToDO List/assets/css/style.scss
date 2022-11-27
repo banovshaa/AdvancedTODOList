@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//variables 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+} 
+a{
+  text-decoration: none;
+}
+body{
+  background-color:rgb(54, 112, 199);
+  .container{
+    .all{
+      padding: 0 5rem;
+      h1{
+          text-align: center;
+          font-weight: 900;
+          font-size: 5rem;
+          color:#333;
+          opacity: .3;
+          padding-bottom: 5rem;
+      }
+      .all-lists{
+        .list-left{
+          color: white;
+          h3{
+           font-size: 20px;
+           padding-left: 12px;
+          }
+          .left-l{
+            li{
+              font-weight: 100;
+              list-style-type: circle;
+            }
+            .left-list-active{
+              font-weight: 600;
+            }
+            
+          }
+          
+          .left-input{
+            color: white;
+            font-weight: 100;
+            outline: none;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid rgb(255, 255, 255);
+            &::placeholder{
+              color: rgba(255, 255, 255,.6);
+            }
+          }
+          .btn{
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+          }
+        }
+        .list-right{          
+          .card-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .card-header-left{
+              h3{
+                font-weight: 600;
+                font-size: 25px;
+              }
+            }
+            .card-header-right{
+              color: rgb(116, 114, 114);
+              font-size: 13px;
+              padding-top: 8px;
+            }
+          }
+          .right-input{
+            color: rgba(111, 108, 108,.4);
+            font-size: 20px;
+            font-weight: 500;
+            outline: none;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #888;
+            &::placeholder{
+              color: rgba(111, 108, 108,.4);
+            }
+          }
+          .btn{
+            color: #000;
+            font-weight: 600;
+            font-size: 25px;
+          }
+          .right-l{
+            margin: 1rem ;
+            .checkbox-label{
+              font-size: 18px;
+              letter-spacing: .1px;
+              color:#333;
+            }
+          }
+          .right-notes{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2rem; 
+            font-size: 14px;
+            color: #888;
+          }
+          }
+        }
+      }
+    }
+  }
